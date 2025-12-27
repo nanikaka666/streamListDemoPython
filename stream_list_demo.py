@@ -7,7 +7,6 @@ import stream_list_pb2_grpc
 
 
 def main() -> None:
-  print(len(sys.argv))
   if len(sys.argv) > 3:
     print("ERROR")
     return
